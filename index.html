@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./ccs/bootstrap.min.css">
+  <link rel="stylesheet" href="./ccs/style.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+  <title>Proyecto</title>
+</head>
+
+<body>
+  <header class="container-fluid text-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container navegacion ">
+        <a class="navbar-brand text-white" href="#">
+          <img src="./assets/img/codoacodo.png" alt="Logo de codo a codo" width="100px">
+          Conf Bs.As.
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="navbarNav ">
+          <ul class="navbar-nav w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active text-white lacnfe" href="#conferencia ">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link gris" href="#oradores">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link gris" href="#lugarFecha">El Lugar y la Fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link gris" href="#formulario">Conviertete en Orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link verde" href="./pages/comprar_tickets.html">Comprar Tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container-fluid carrusel">
+      <div id="carouselExampleIndicators" class=" carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active prueba">
+            <img src="./assets/img/ba1.jpg" class="d-block w-100 imgcarru" alt="El Palacio de Aguas Corrientes, llamado oficialmente Gran Depósito Ingeniero Guillermo Villanueva">
+          </div>
+          <div class="carousel-item prueba">
+            <img src="./assets/img/ba2.jpg" class="d-block w-100 imgcarru" alt="monumento declarado en el registro de Bienes de Interés Cultural del patrimonio españo">
+          </div>
+          <div class="carousel-item prueba">
+            <img src="./assets/img/ba3.jpg" class="d-block w-100 imgcarru" alt="Imagen panoramica del Obelisco de Buenos Aires y la avenida 9 de julio.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="position-absolute top-0 end-0 confe">
+      
+        <h1>Conferencia Bs. As.</h1>
+        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y 
+          experiencia de los expertos que están creando el futuro de Internet.Ven a conocer a miembros del evento,
+          a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos¡
+        </p>
+        <div >
+          <a class="enlace" href="#conviertete"">Quiero ser Orador</a>
+          <a class=" comprar" href="./pages/comprar.html">Comprar Tickets</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </header>
+  <main>
+    <section class="container oradores ">
+
+      <h2><span class="tituloradores">CONOCE A LOS </span> <br>ORADORES</h2>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/steve.jpg" class="card-img-top cardimg" alt="Imagen de Steve Jobs">
+            <div class="card-body">
+              <h5 class="card-title java">JavaScript</h5>
+              <h5 class="card-title react">React</h5>
+              <h3>Steve Jobs</h3>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nulla consectetur
+                illum
+                voluptatibus voluptatem illo alias dolorem voluptatum, non aliquid nisi fugiat vitae maxime
+                quas est maiores dolor pariatur et?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/bill.jpg"" class=" card-img-top cardimg" alt="" Imagen de Bill Gates"">
+            <div class="card-body">
+              <h5 class="card-title java">JavaScript</h5>
+              <h5 class="card-title react">React</h5>
+              <h3>Bill Gates</h3>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nulla consectetur
+                illum
+                voluptatibus voluptatem illo alias dolorem voluptatum, non aliquid nisi fugiat vitae maxime
+                quas est maiores dolor pariatur et?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/ada.jpeg" class="card-img-top cardimg" alt="Imagen de Ada Lovelace">
+            <div class="card-body">
+              <h5 class="card-title negocio">Negocios</h5>
+              <h5 class="card-title start">Startups</h5>
+              <h3>Ada Lovelace</h3>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nulla consectetur
+                illum
+                voluptatibus voluptatem illo alias dolorem voluptatum, non aliquid nisi fugiat vitae maxime
+                quas est maiores dolor pariatur et?
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="lugar" class="container-fluid">
+
+      <div class="row honolulu">
+
+        <div class="fecha col-6 imghonolulu">
+
+        </div>
+
+        <div class="fecha col-6 text-white honolulutxt">
+
+          <h2>Bs. As. Octubre</h2>
+          <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
+            Unidos,
+            Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el
+            nombre de honolulu
+            se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
+            Honolulu han formado
+            una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de
+            Superficie).
+          </p>
+          <button>Conocé más</button>
+
+        </div>
+
+    </section>
+
+    <section class="container formu">
+
+
+      <div class="container tituloformulario">
+        <h2><span class="conviertete">CONVIÉRTE EN </span> <br>ORADOR</h2>
+        <h3>Anótate como orador para dar una charla.ignite. Cuéntanos de qué quieres hablar!</h3>
+
+        <!--copiado de bootstrap-->
+        <form>
+          <div class="form-group">
+
+            <input type="text" id="nombre" class="form-control" placeholder="Escribe tu nombre">
+            <input type="text" id="apellido" class="form-control" placeholder="Escribe tu apellido">
+          </div>
+
+          <div class="form-group">
+
+            <textarea id="mensaje" class="form-control" rows="6" placeholder="Sobre qué quieres hablar"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+  <footer>
+    <div class="contpie">
+      <div class="menu">
+        <a href="">Preguntas<br> frecuentes</a>
+        <a href="">Contáctanos</a>
+        <a href="">Prensa</a>
+        <a href=""> Conferencias</a>
+        <a href="">Términos y Condiciones</a>
+        <a href="">Privacidad</a>
+        <a href=""> Estudiantes</a>
+      </div>
+      <div>
+        <a href="https://buenosaires.gob.ar/educacion/codo-codo-40"><img
+            src="./assets/img/logo_gob_ciudad-removebg-preview.png"
+            alt="Boti de la pagina del gobierno de la ciudad"></a>
+
+
+      </div>
+    </div>
+
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

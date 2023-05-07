@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;600;700&family=Noto+Sans:ital,wght@0,100;1,100&display=swap');
+
+* {
+    /*limpia margenes*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-color: #121313;
+}
+
+.navbar-light {
+    height: 10%;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .gris {
+    color: #899696;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .verde {
+    color: rgb(19, 158, 30);
+    font-weight: 500;
+}
+
+
+.carrusel {
+    
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+ 
+}
+.prueba{
+    background: linear-gradient(to right, #0000009c, #0000009c);
+}
+.prueba .imgcarru {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8));
+  opacity: 0.5;
+    height: 90vh;
+   object-fit: cover;
+}
+.confe{
+    
+    width: 500px;
+    margin-top: 250px;
+    margin-right: 25px;
+    text-align: right;
+}
+.enlace{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px rgb(180, 179, 179);
+}
+.comprar{
+    background-color: rgb(5, 131, 5);
+    border: solid 1px rgb(5, 131, 5);
+    border-radius: 5px;
+    color: white;
+}
+
+.oradores {
+    height: 100vh;
+}
+
+.oradores h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.tituloradores {
+    font-size: 15px;
+}
+
+.card {
+    height: 100%;
+    width: 90%;
+}
+
+.cardimg {
+    height: 70%;
+}
+
+.card-title {
+    font-size: 15px;
+    display: inline-block;
+}
+
+.java {
+    background-color: rgb(221, 201, 24);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.react {
+    background-color: rgb(96, 94, 241);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.negocio {
+    background-color: #6a6d6d;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.start {
+    background-color: hsl(0, 74%, 54%);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 14.5px;
+}
+
+.honolulu {
+    height: 60vh;
+}
+
+.imghonolulu {
+    background-image: url(../assets/img/honolulu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+
+.honolulutxt {
+    background-color: rgb(73, 71, 71);
+    height: 100%;
+    border: 1px solid white;
+}
+
+.honolulutxt h2 {
+    margin-top: 10px
+}
+
+.tituloformulario h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.conviertete {
+
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgb(3, 65, 65);
+}
+
+.contpie a img {
+    /*estilo del boti de BA*/
+    position: fixed;
+    bottom: 55px;
+    right: 30px;
+    width: 7%;
+}
