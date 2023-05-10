@@ -302,17 +302,3 @@ footer {
         width: 7%;
     }
 }
-@media screen and (min-width: 576px){
-    .submit{
-        width: 355px;
-        margin-top: 15px;
-        margin-bottom: 5px;
-    }
-    .col div a img {
-        /*estilo del boti de BA*/
-        position: fixed;
-        bottom: 60px;
-        right: 30px;
-        width: 70%;
-    }
-}
