@@ -26,7 +26,7 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse menu" id="navbarNav ">
+        <div class="collapse navbar-collapse " id="navbarNav ">
           <ul class="navbar-nav w-100 justify-content-end">
             <li class="nav-item">
               <a class="nav-link active text-white lacnfe" href="#conferencia ">La conferencia</a>
@@ -48,7 +48,7 @@
       </div>
     </nav>
 
-    <section class="container-fluid carrusel">
+    <section class="container-fluid carrusel" id="conferencia">
       <div id="carouselExampleIndicators" class=" carousel slide " data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -60,13 +60,16 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active prueba">
-            <img src="./assets/img/ba1.jpg" class="d-block w-100 imgcarru" alt="El Palacio de Aguas Corrientes, llamado oficialmente Gran Depósito Ingeniero Guillermo Villanueva">
+            <img src="./assets/img/ba1.jpg" class="d-block w-100 imgcarru"
+              alt="El Palacio de Aguas Corrientes, llamado oficialmente Gran Depósito Ingeniero Guillermo Villanueva">
           </div>
           <div class="carousel-item prueba">
-            <img src="./assets/img/ba2.jpg" class="d-block w-100 imgcarru" alt="monumento declarado en el registro de Bienes de Interés Cultural del patrimonio españo">
+            <img src="./assets/img/ba2.jpg" class="d-block w-100 imgcarru"
+              alt="monumento declarado en el registro de Bienes de Interés Cultural del patrimonio españo">
           </div>
           <div class="carousel-item prueba">
-            <img src="./assets/img/ba3.jpg" class="d-block w-100 imgcarru" alt="Imagen panoramica del Obelisco de Buenos Aires y la avenida 9 de julio.">
+            <img src="./assets/img/ba3.jpg" class="d-block w-100 imgcarru"
+              alt="Imagen panoramica del Obelisco de Buenos Aires y la avenida 9 de julio.">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -81,13 +84,13 @@
         </button>
       </div>
       <div class="position-absolute top-0 end-0 confe">
-      
+
         <h1>Conferencia Bs. As.</h1>
-        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y 
+        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
           experiencia de los expertos que están creando el futuro de Internet.Ven a conocer a miembros del evento,
           a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos¡
         </p>
-        <div >
+        <div>
           <a class="enlace" href="#conviertete"">Quiero ser Orador</a>
           <a class=" comprar" href="./pages/comprar.html">Comprar Tickets</a>
         </div>
@@ -99,12 +102,12 @@
 
   </header>
   <main>
-    <section class="container oradores ">
+    <section class="container oradores " id="oradores">
 
       <h2><span class="tituloradores">CONOCE A LOS </span> <br>ORADORES</h2>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+      <div class="row row-cols-1 row-cols-md-3 g-4 carta">
+        <div class="col ">
           <div class="card">
             <img src="./assets/img/steve.jpg" class="card-img-top cardimg" alt="Imagen de Steve Jobs">
             <div class="card-body">
@@ -119,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col ">
           <div class="card">
             <img src="./assets/img/bill.jpg"" class=" card-img-top cardimg" alt="" Imagen de Bill Gates"">
             <div class="card-body">
@@ -134,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col ">
           <div class="card">
             <img src="./assets/img/ada.jpeg" class="card-img-top cardimg" alt="Imagen de Ada Lovelace">
             <div class="card-body">
@@ -152,15 +155,15 @@
 
       </div>
     </section>
-    <section id="lugar" class="container-fluid">
+    <section id="lugarFecha" class="container-fluid" >
 
       <div class="row honolulu">
 
-        <div class="fecha col-6 imghonolulu">
+        <div class="col-sm-12 col-md-6 imghonolulu">
 
         </div>
 
-        <div class="fecha col-6 text-white honolulutxt">
+        <div class="col-sm-12 col-md-6 text-white honolulutxt">
 
           <h2>Bs. As. Octubre</h2>
           <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
@@ -172,13 +175,13 @@
             una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de
             Superficie).
           </p>
-          <button>Conocé más</button>
+          <button class="conocemas text-white">Conocé más</button>
 
         </div>
 
     </section>
 
-    <section class="container formu">
+    <section class="container formu" id="formulario">
 
 
       <div class="container tituloformulario">
@@ -187,17 +190,19 @@
 
         <!--copiado de bootstrap-->
         <form>
-          <div class="form-group">
+          <div class="form-group  formulario">
 
-            <input type="text" id="nombre" class="form-control" placeholder="Escribe tu nombre">
-            <input type="text" id="apellido" class="form-control" placeholder="Escribe tu apellido">
+            <input type="text" id="nombre" class="form-control namelast " placeholder="Escribe tu nombre">
+            <input type="text" id="apellido" class="form-control namelast " placeholder="Escribe tu apellido">
           </div>
 
           <div class="form-group">
 
             <textarea id="mensaje" class="form-control" rows="6" placeholder="Sobre qué quieres hablar"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <div class="boton">
+            <button type="submit" class="btn btn-primary submit">Enviar</button>
+          </div>
         </form>
 
       </div>
@@ -206,29 +211,29 @@
 
   </main>
   <footer>
-    <div class="contpie">
-      <div class="menu">
-        <a href="">Preguntas<br> frecuentes</a>
-        <a href="">Contáctanos</a>
-        <a href="">Prensa</a>
-        <a href=""> Conferencias</a>
-        <a href="">Términos y Condiciones</a>
-        <a href="">Privacidad</a>
-        <a href=""> Estudiantes</a>
+    <div class="container ">
+      <div class="col   navfoo">
+        <nav class="nav ">
+          <a class="nav-link active " aria-current="page" href="#">Preguntas<br> frecuentes</a>
+          <a class="nav-link" href="#">Contáctanos</a>
+          <a class="nav-link" href="#">Prensa</a>
+          <a class="nav-link" href="#">Conferencias</a>
+          <a class="nav-link" href="#">Términos y <br>Condiciones</a>
+          <a class="nav-link" href="#">Privacidad</a>
+          <a class="nav-link" href="#">Estudiantes</a>
+        </nav>
       </div>
-      <div>
-        <a href="https://buenosaires.gob.ar/educacion/codo-codo-40"><img
-            src="./assets/img/logo_gob_ciudad-removebg-preview.png"
-            alt="Boti de la pagina del gobierno de la ciudad"></a>
+      <div class="col ">
+        <div>
+          <a href="https://buenosaires.gob.ar/educacion/codo-codo-40"><img
+              src="./assets/img/logo_gob_ciudad-removebg-preview.png"
+              alt="Boti de la pagina del gobierno de la ciudad"></a>
 
-
+        </div>
       </div>
     </div>
-
   </footer>
   <script src="js/bootstrap.bundle.min.js"></script>
-
-
 </body>
 
 </html>
