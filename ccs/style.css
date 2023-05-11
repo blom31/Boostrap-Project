@@ -191,7 +191,7 @@ header {
 }
 
 .formulario {
-    background-color: #000;
+   
     display: flex;
     justify-content: space-between;
 
@@ -244,6 +244,13 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+    .confe {
+      
+        margin-top: 200px;
+        margin-right: 25px;
+        text-align: right;
+    }
+
     .oradores {
         height: initial;
     }
@@ -253,7 +260,7 @@ footer {
         padding-right: 15px;
     }
     .imghonolulu {
-        height: 45vh;
+        height: 55vh;
     }
     .namelast{
         width: 450px;
@@ -261,7 +268,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-
+    
 
     .confe {
         width: 400px;
@@ -296,10 +303,10 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {   
     .confe {
         width: 400px;
-        margin-top: 170px;
+        margin-top: 160px;
         margin-right: 25px;
         text-align: right;
     }
@@ -312,10 +319,10 @@ footer {
     }
 
     .imghonolulu {
-        height: 56vh;
+        height: 74vh;
     }
     .formulario {
-        background-color: #000;
+     
         display: flex;
         flex-direction: column;
         justify-content: space-between;    
@@ -335,18 +342,18 @@ footer {
 
 @media screen and (max-width: 576px) {
 
+    .navbar-collapse {
+        background-color: #fff; /* Cambiar el color de fondo */
+        border-top: 1px solid #ccc;
+      }
     .confe {
-        width: 400px;
-        margin-top: 170px;
+        width: 300px;
+        margin-top: 110px;
         margin-right: 25px;
+       font-size: 15px;
         text-align: right;
     }
-    .formulario {
-        background-color: #000;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;  
-    }
+   
     .namelast{
         width: 493px;
     }
@@ -356,5 +363,28 @@ footer {
         bottom: 60px;
         right: 30px;
         width: 7%;
+    }
+}
+
+
+@media screen and (max-width: 412px) {
+
+    .confe {
+        width: 300px;
+        margin-top: 150px;
+        margin-right: 25px;
+       
+        text-align: right;
+    }
+ 
+    .namelast{
+        width: 365px;
+    }
+    .col div a img {
+        /*estilo del boti de BA*/
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        width: 8%;
     }
 }
