@@ -303,7 +303,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {   
+@media screen and (max-width: 760px) {   
     .confe {
         width: 400px;
         margin-top: 160px;
@@ -328,7 +328,7 @@ footer {
         justify-content: space-between;    
     }
     .namelast{
-        width: 670px;
+        width: 500px;
     }
 
     .col div a img {
