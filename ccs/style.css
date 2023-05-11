@@ -321,15 +321,7 @@ footer {
     .imghonolulu {
         height: 74vh;
     }
-    .formulario {
-     
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;    
-    }
-    .namelast{
-        width: 500px;
-    }
+   
 
     .col div a img {
         /*estilo del boti de BA*/
@@ -353,38 +345,12 @@ footer {
        font-size: 15px;
         text-align: right;
     }
-   
-    .namelast{
-        width: 490px;
-    }
+  
     .col div a img {
         /*estilo del boti de BA*/
         position: fixed;
         bottom: 60px;
         right: 30px;
         width: 7%;
-    }
-}
-
-
-@media screen and (max-width: 412px) {
-
-    .confe {
-        width: 300px;
-        margin-top: 150px;
-        margin-right: 25px;
-       
-        text-align: right;
-    }
- 
-    .namelast{
-        width: 365px;
-    }
-    .col div a img {
-        /*estilo del boti de BA*/
-        position: fixed;
-        bottom: 50px;
-        right: 30px;
-        width: 8%;
     }
 }
