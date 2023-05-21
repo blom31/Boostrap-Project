@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./ccs/bootstrap.min.css">
   <link rel="stylesheet" href="./ccs/style.css">
@@ -17,7 +17,7 @@
 <body>
   <header class="container-fluid text-white">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container navegacion ">
+      <div class="container navegacion">
         <a class="navbar-brand text-white" href="#">
           <img src="./assets/img/codoacodo.png" alt="Logo de codo a codo" width="100px">
           Conf Bs.As.
@@ -26,24 +26,24 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-          <ul class="navbar-nav list w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active text-white lacnfe" href="#conferencia ">La conferencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link gris" href="#oradores">Los oradores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link gris" href="#lugarFecha">El Lugar y la Fecha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link gris" href="#formulario">Conviertete en Orador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link verde" href="./pages/comprar_tickets.html">Comprar Tickets</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="navbar-nav list w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active text-white lacnfe" href="#conferencia ">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link gris" href="#oradores">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link gris" href="#lugarFecha">El Lugar y la Fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link gris" href="#formulario">Conviertete en Orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link verde" href="./pages/tikets.html">Comprar Tickets</a>
+          </li>
+        </ul>
+      </div>
       </div>
     </nav>
 
@@ -95,9 +95,6 @@
         </div>
       </div>
     </section>
-
-
-
 
   </header>
   <main>
@@ -154,7 +151,7 @@
 
       </div>
     </section>
-    <section id="lugarFecha" class="container-fluid" >
+    <section id="lugarFecha" class="container-fluid">
 
       <div class="row honolulu">
 
@@ -189,19 +186,21 @@
 
         <!--copiado de bootstrap-->
         <form>
-          <div class="form-group row  formulario ">
-            <div class="col-sm-12 col-md-6 namelast<  ">
+          <div class="form-group row  formulario">
+            <div class="col-sm-12 col-md-6 namelast">
               <input type="text" id="nombre" class="form-control col-sm-12 col-md-6  " placeholder="Escribe tu nombre">
             </div>
             <div class="col-sm-12 col-md-6">
-              <input type="text" id="apellido" class="form-control col-sm-12 col-md-6 " placeholder="Escribe tu apellido">
+              <input type="text" id="apellido" class="form-control col-sm-12 col-md-6 "
+                placeholder="Escribe tu apellido">
             </div>
-            
+
           </div>
 
           <div class="form-group">
 
-            <textarea id="mensaje" class="form-control textformu" rows="6" placeholder="Sobre qué quieres hablar"></textarea>
+            <textarea id="mensaje" class="form-control textformu" rows="6"
+              placeholder="Sobre qué quieres hablar"></textarea>
           </div>
           <div class="boton">
             <button type="submit" class="btn btn-primary btn-lg col-md-6 submit">Enviar</button>
@@ -231,6 +230,9 @@
           <a href="https://buenosaires.gob.ar/educacion/codo-codo-40"><img
               src="./assets/img/logo_gob_ciudad-removebg-preview.png"
               alt="Boti de la pagina del gobierno de la ciudad"></a>
+
+        </div>
+        <div>
 
         </div>
       </div>

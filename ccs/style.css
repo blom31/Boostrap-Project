@@ -12,7 +12,7 @@ header {
     background-color: #121313;
 }
 .navbar-light {
-    height: 10%;
+    height: 20%;
 }
 
 .navbar-toggler {
@@ -309,6 +309,10 @@ footer {
         bottom: 30px;
         right: 30px;
         width: 7%;
+    }
+    .descuentos{
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
