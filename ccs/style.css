@@ -164,8 +164,11 @@ header {
     margin-bottom: 10px;
     font-size: 25px;
 }
-
+.tituloformulario{
+    width: 120vh;
+}
 .tituloformulario h3 {
+    
     text-align: center;
     margin-bottom: 10px;
     font-size: 20px;
@@ -181,6 +184,9 @@ header {
 }
 .textformu{
     margin-top: 10px;
+}
+.totalpagar{
+    background-color: rgba(79, 231, 231, 0.774);
 }
 
 .boton {
@@ -242,9 +248,6 @@ footer {
     .imghonolulu {
         height: 55vh;
     }
-    .namelast{
-        width: 450px;
-    }
 }
 
 @media screen and (max-width: 992px) {
@@ -268,12 +271,23 @@ footer {
     .imghonolulu {
         height: 59.5vh;
     }
-
+    .descuentos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario{
+        flex-direction: column;
+    }
+    .namelast{
+        width: 100%;
+    }
+    .botones{
+        flex-direction: column;
+    }
     .form .button {
         align-items: center;
         justify-content: center;
     }
-
     .col div a img {
         /*estilo del boti de BA*/
         position: fixed;
@@ -310,10 +324,13 @@ footer {
         right: 30px;
         width: 7%;
     }
-    .descuentos{
-        flex-direction: column;
-        justify-content: center;
+
+    /* =================  E S T I L A D O   P A G I N A   T I K E T S  =================*/
+    .descuentos{        
+        flex-direction: column;       
+        align-items: center;
     }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -326,7 +343,9 @@ footer {
        font-size: 15px;
         text-align: right;
     }
-  
+    .namelast{
+        width: 100%;
+    }
     .col div a img {
         /*estilo del boti de BA*/
         position: fixed;
