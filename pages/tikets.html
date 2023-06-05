@@ -13,6 +13,9 @@
 </head>
 
 <body>
+    <!--============================================================================================================-->
+    <!--======================== == == == == == == M  E  N  U  == == == == == == == ================================-->
+    <!--============================================================================================================-->
     <header class="container-fluid text-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container navegacion">
@@ -25,28 +28,31 @@
                 </button>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav list w-100 justify-content-end">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white lacnfe" href="#conferencia ">La conferencia</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link gris" href="#oradores">Los oradores</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link gris" href="#lugarFecha">El Lugar y la Fecha</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link gris" href="#formulario">Conviertete en Orador</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link verde" href="./pages/tikets.html">Comprar Tickets</a>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white lacnfe" href="#conferencia ">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link gris" href="#oradores">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link gris" href="#lugarFecha">El Lugar y la Fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link gris" href="#formulario">Conviertete en Orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link verde" href="">Comprar Tickets</a>
+                        </li>
                     </ul>
-                    </div>
+                </div>
             </div>
             </div>
         </nav>
     </header>
     <main>
+        <!--===========================================================================================================-->
+        <!--=========== == == == == == == T A R J E T A S  D E S C U E N T O S  == == == == == == == ==================-->
+        <!--===========================================================================================================-->
         <section>
             <div class="my-3 d-flex justify-content-center descuentos">
                 <div class="card me-2" style="width: 15rem;">
@@ -73,13 +79,12 @@
                         <h6 class="card-subtitle mb-2 text-muted fs-7">*Presentar documentación</h6>
                     </div>
                 </div>
-
             </div>
-
-
         </section>
         <section>
-
+        <!--===========================================================================================================-->
+        <!--======================= == == == == F  O  R  M  U  L  A  R  I  O == == == == == ===========================-->
+        <!--===========================================================================================================-->
 
             <div class="container tituloformulario">
                 <h2><span class="conviertete">VENTA</span> <br>VALOR DEL TICKET $200</h2>
@@ -87,8 +92,8 @@
                 <form>
                     <div class="form-group row d-flex justify-content-between formulario">
                         <div class="col-sm-12 col-md-6 namelast">
-                            <input type="text" id="nombre" class="form-control col-sm-12 col-md-6"
-                                placeholder="Nombre" required>
+                            <input type="text" id="nombre" class="form-control col-sm-12 col-md-6" placeholder="Nombre"
+                                required>
                         </div>
                         <div class="col-sm-12 col-md-6  namelast">
                             <input type="text" id="apellido" class="form-control col-sm-12 col-md-6"
@@ -100,15 +105,15 @@
                         </div>
                         <div class="col-sm-12 col-md-6 namelast">
                             <label for="disabledSelect" class="form-label">Cantidad</label>
-                            <input type="number" class="form-control col-sm-12 col-md-6 namelast"
-                                placeholder="Cantidad" min="1" max="100" required>
+                            <input type="number" class="form-control col-sm-12 col-md-6 namelast" placeholder="Cantidad"
+                                min="1" max="100" required>
                         </div>
                         <div class="col-sm-12 col-md-6 namelast">
                             <label for="disabledSelect" class="form-label">Categoría</label>
                             <select id="disabledSelect" class="form-select">
-                                 <option>Estudiante</option>
-                                 <option>Trainee</option>
-                                 <option>Estudiante</option>
+                                <option>Estudiante</option>
+                                <option>Trainee</option>
+                                <option>Estudiante</option>
                             </select>
                         </div>
                         <div class="form-group w-100 namelast">
@@ -119,16 +124,19 @@
                 </form>
                 <div class=" row mb-3">
                     <div class="col-sm-12 col-md-6  d-flex justify-content-between botones">
-                        <button type="submit" class="btn btn-primary btn-lg col-md-6 submit w-100">Borrar</button>
-                       
+                        <button type="reset" value="Borrar" class="btn btn-primary btn-lg col-md-6 submit w-100 ">Borrar</button>
+
                     </div>
                     <div class="col-sm-12 col-md-6  d-flex justify-content-between botones">
-                        <button type="submit" class="btn btn-primary btn-lg col-md-6 submit w-100">Resumen</button>
+                        <button type="submit" id="send-button"class="btn btn-primary btn-lg col-md-6 submit w-100">Resumen</button>
                     </div>
                 </div>
         </section>
 
     </main>
+    <!--============================================================================================================-->
+    <!--============================== == == == == F  O  O  T  E  R  == == == == == ================================-->
+    <!--============================================================================================================-->
     <footer>
         <div class="container ">
             <div class="col   navfoo">
@@ -155,7 +163,7 @@
             </div>
         </div>
     </footer>
-   <!-- <script src="../js/bootstrap.bundle.min.js"></script>--> 
+    <!-- <script src="../js/bootstrap.bundle.min.js"></script>-->
     <script src="../js/javaScript.js"></script>
 </body>
 
