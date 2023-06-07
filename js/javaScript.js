@@ -13,11 +13,16 @@ const validarFormulario=(e)=>{
     switch(e.target.name){
         case "nombre":
            /* console.log('funciona nombre') /*esto hace puntual que se valdia ese campo*/
-            if(expresiones.nombre.test(e.target.value))
+            if(expresiones.nombre.test(e.target.value)){
+
+            }else{
+                document.getElementById()
+            }
            break;
         case "apellido":
            /* console.log('funciona apellido') /*esto hace puntual que se valdia ese campo*/
-        break;
+           if(expresiones.apellido.test(e.target.value))
+           break;
     }    
 }
 

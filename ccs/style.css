@@ -173,7 +173,9 @@ header {
     margin-bottom: 5px;
     width: 100px;
 }
-
+.descuento{
+        height: 94vh;
+}
 /* =================  E S T I L A D O   F O R M U L A R I O  =================*/
 .tituloformulario h2 {
     text-align: center;
@@ -228,6 +230,7 @@ header {
 .conviertete {
     font-size: 15px;
 }
+
 
 /* =================  E S T I L A D O   F O O  T E R  =================*/
 footer {
@@ -389,6 +392,6 @@ footer {
 @media screen and (max-width: 425px) {
 
     .tituloformulario {
-        width: 45vh;
+        width: 130vh;
     }
 }
