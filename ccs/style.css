@@ -230,6 +230,8 @@ header {
 .conviertete {
     font-size: 15px;
 }
+/* =================  V A L I D A R   F O R M U L A R I O  =================*/
+
 
 
 /* =================  E S T I L A D O   F O O  T E R  =================*/
@@ -392,6 +394,6 @@ footer {
 @media screen and (max-width: 425px) {
 
     .tituloformulario {
-        width: 130vh;
+        width: 100vh;
     }
 }
