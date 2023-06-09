@@ -393,6 +393,11 @@ footer {
 
 @media screen and (max-width: 425px) {
 
+    .tituloformulario {width: 100vh;
+    }
+}
+@media screen and (max-width:320px) {
+
     .tituloformulario {
         width: 100vh;
     }
