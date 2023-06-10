@@ -195,11 +195,11 @@ header {
 
 }
 
-.formulario {
+/*.formulario {
     display: flex;
     justify-content: space-between;
 }
-
+*/
 .namelast {
     padding-bottom: 10px;
 }
