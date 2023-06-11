@@ -188,18 +188,11 @@ header {
 }
 
 .tituloformulario h3 {
-
     text-align: center;
     margin-bottom: 10px;
     font-size: 20px;
-
 }
 
-/*.formulario {
-    display: flex;
-    justify-content: space-between;
-}
-*/
 .namelast {
     padding-bottom: 10px;
 }
@@ -221,8 +214,6 @@ header {
 .submit {
     background-color: rgb(5, 131, 5);
     border: rgb(5, 131, 5);
-    /*width: 1093px;*/
-
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -230,9 +221,6 @@ header {
 .conviertete {
     font-size: 15px;
 }
-/* =================  V A L I D A R   F O R M U L A R I O  =================*/
-
-
 
 /* =================  E S T I L A D O   F O O  T E R  =================*/
 footer {
@@ -280,7 +268,6 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-
 
     .confe {
         width: 400px;
@@ -361,7 +348,6 @@ footer {
         width: 7%;
     }
 
-    /* =================  E S T I L A D O   P A G I N A   T I K E T S  =================*/
     .descuentos {
         
         align-items: center;
