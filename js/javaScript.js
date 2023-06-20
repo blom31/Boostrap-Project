@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     /* Defino constantes y variables  */
      /* traigo el objeto formulario2 para acceder a sus valores */
     const formulario2 = document.getElementById('formulario2');
-    const estudiante = 0.80;
+    const estudiante = 0.20;
     const trainee = 0.50;
     const junior = 0.85;
     const entrada = 200;
